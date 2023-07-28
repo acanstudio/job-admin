@@ -1,6 +1,25 @@
-# for projects that use SCons for building: http://http://www.scons.org/
-.sconsign.dblite
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
 
-# When configure fails, SCons outputs these
-config.log
-.sconf_temp
+tests/**/coverage/
+tests/e2e/reports
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+build.sh
+*.local
+
+package-lock.json
+yarn.lock
