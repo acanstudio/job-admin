@@ -10,25 +10,11 @@ import user from './user'
 import getters from './getters'
 
 import passportDatabases from '@/applications/passport/database'
-import merchantDatabases from '@/applications/merchant/database'
-import thirdDatabases from '@/applications/third/database'
-import infocmsDatabases from '@/applications/infocms/database'
-import cultureDatabases from '@/applications/culture/database'
-import bigdataDatabases from '@/applications/bigdata/database'
-import paytradeDatabases from '@/applications/paytrade/database'
-import shopDatabases from '@/applications/shop/database'
-import benchDatabases from '@/applications/bench/database'
+import wmsystemDatabases from '@/applications/wmsystem/database'
 
 let databases = {
   passport: passportDatabases,
-  merchant: merchantDatabases,
-  third: thirdDatabases,
-  infocms: infocmsDatabases,
-  culture: cultureDatabases,
-  bigdata: bigdataDatabases,
-  paytrade: paytradeDatabases,
-  shop: shopDatabases,
-  bench: benchDatabases,
+  wmsystem: wmsystemDatabases,
 }
 //databases = Object.assign(databases, merchantDatabases);
 //databases = Object.assign(databases, passportDatabases);
